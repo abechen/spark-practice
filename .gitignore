@@ -1,0 +1,15 @@
+# OS generated files #
+######################
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# python virtual ENV
+################
+venv
+
+# spark
+metastore_db
+checkpoint
+spark-warehouse
