@@ -12,13 +12,13 @@ pip install -r docs/requirements.txt
 - kafdrop
 
     [http://localhost:9000/](http://localhost:9000/)
-    ![kafdrop](structured-streaming/images/kafdrop.png)
+    ![kafdrop](images/kafdrop.png)
 
 - elasticsearch (7.5.0)
 - kibana (7.5.0)
 
     [http://localhost:5601/](http://localhost:5601/)
-    ![kibana](structured-streaming/images/kibana.png)
+    ![kibana](images/kibana.png)
 
 ---
 
@@ -71,6 +71,6 @@ Account No,DATE,TRANSACTION DETAILS,CHQ.NO.,VALUE DATE,WITHDRAWAL AMT,DEPOSIT AM
 
 `streaming-processor-count.py`
 
-### 情境二：從 `Kafka` 讀取資料，將資料寫入 `elasticsearch`
+### 情境二：從 `Kafka` 讀取資料，將資料寫入 `elasticsearch`
 
 `streaming-processor-filter.py`
